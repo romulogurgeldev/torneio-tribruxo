@@ -1,0 +1,65 @@
+.container-torneio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-torneio h1 {
+  color: white;
+}
+
+.container-torneio img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.button-tentardenovo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Slytherin-img {
+  border: 2px solid #00a421;
+}
+
+.Gryffindor-img {
+  border: 2px solid #fc3c3b;
+}
+
+.Hufflepuff-img {
+  border: 2px solid #f9e141;
+}
+
+.Ravenclaw-img {
+  border: 2px solid #0d43a7;
+}
+.titulo-campeao {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(26, 26, 26),
+    rgba(139, 139, 139, 0.747),
+    black
+  );
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
